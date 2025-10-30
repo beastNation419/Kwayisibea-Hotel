@@ -1,29 +1,29 @@
-# Kwayisibea Hotel Website
+🏨 Kwayisibea Hotel Website
 
 A modern, luxurious, and responsive hotel website inspired by the Taiga Premium Hotel design.
 Built with Next.js, TypeScript, and TailwindCSS, this project showcases elegant design, seamless booking flow, and a refined digital experience for hotel guests.
 
-# Features
+🌟 Features
 
- Home Page – Hero banner, premium highlights, and booking CTA
+🏠 Home Page – Hero banner, premium highlights, and booking CTA
 
- Rooms Section – Dynamic room listings with details and prices
+🛏️ Rooms Section – Dynamic room listings with details and prices
 
- Restaurant Page – Menu, signature dishes, and table reservations
+🍽️ Restaurant Page – Menu, signature dishes, and table reservations
 
- Wellness & SPA – SPA packages, fitness center, and booking forms
+💆 Wellness & SPA – SPA packages, fitness center, and booking forms
 
- Special Offers – Romantic, family, long-stay, and wellness deals
+🎁 Special Offers – Romantic, family, long-stay, and wellness deals
 
- Contacts Page – Map, contact info, and transfer details
+📍 Contacts Page – Map, contact info, and transfer details
 
- Multilingual Support – (English + Twi planned)
+🌐 Multilingual Support – (English + Twi planned)
 
- Responsive Design – Optimized for all screen sizes
+📱 Responsive Design – Optimized for all screen sizes
 
- SEO Friendly – Meta tags, structured data, and optimized assets
+⚡ SEO Friendly – Meta tags, structured data, and optimized assets
 
-# Tech Stack
+🧩 Tech Stack
 Category	Tools
 Framework	Next.js 14
 
@@ -35,7 +35,7 @@ Forms & Booking	React Hook Form, Next API routes
 Internationalization	next-translate (planned)
 Deployment	Vercel
 
-# Version Control	Git + GitHub
+Version Control	Git + GitHub
 📁 Project Structure
 kwayisibea-hotel/
 │
@@ -52,7 +52,7 @@ kwayisibea-hotel/
 ├── package.json
 └── README.md
 
-#  Getting Started
+🚀 Getting Started
 1. Clone the Repository
 git clone https://github.com/your-username/kwayisibea-hotel.git
 cd kwayisibea-hotel
@@ -73,14 +73,14 @@ Then open http://localhost:3000
 npm run build
 npm start
 
-# Design Reference
+🖼️ Design Reference
 
 The design is based on the Taiga Premium Hotel concept from Figma:
 Taiga Hotel Figma Reference
 
 All UI layouts and copy have been translated and adapted for Kwayisibea Hotel to reflect a Ghanaian luxury brand identity.
 
-# Translation Example
+🌍 Translation Example
 {
   "en": {
     "home": {
@@ -102,7 +102,7 @@ All UI layouts and copy have been translated and adapted for Kwayisibea Hotel to
   }
 }
 
-# Screenshots (Coming Soon)
+📸 Screenshots (Coming Soon)
 
 Home page preview
 
@@ -110,7 +110,7 @@ Room details section
 
 SPA & Wellness booking screen
 
-# Contact
+📧 Contact
 
 Developer: Ebenezer Donkor
 Role: Frontend Developer / Designer
@@ -118,7 +118,7 @@ LinkedIn: linkedin.com/in/ebenezer-donkor
 
 Email: your.email@example.com
 
-# License
+📝 License
 
 This project is licensed under the MIT License — feel free to use and adapt for educational or personal purposes.
 
