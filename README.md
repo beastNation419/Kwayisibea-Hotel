@@ -1,86 +1,84 @@
-🏨 Kwayisibea Hotel Website
+#  Kwayisibea Hotel Website
 
 A modern, luxurious, and responsive hotel website inspired by the Taiga Premium Hotel design.
-Built with Next.js, TypeScript, and TailwindCSS, this project showcases elegant design, seamless booking flow, and a refined digital experience for hotel guests.
+Built with Next.js, TypeScript, and TailwindCSS — providing a premium digital experience for hotel guests.
 
-🌟 Features
+------------------------------------------------------
 
-🏠 Home Page – Hero banner, premium highlights, and booking CTA
+##  Features
+-  Home Page: Hero banner and booking section
+-  Rooms: Detailed listings with pricing
+-  Restaurant: Menu and table booking
+-  Wellness & SPA: SPA packages and fitness center
+-  Special Offers: Romantic, family, and long-stay deals
+-  Contacts: Map, phone, and transfer info
+-  Multilingual support (EN + Twi planned)
+-  Responsive design
+-  SEO optimized
 
-🛏️ Rooms Section – Dynamic room listings with details and prices
+------------------------------------------------------
 
-🍽️ Restaurant Page – Menu, signature dishes, and table reservations
+##  Tech Stack
+- Framework: Next.js 14
+- Language: TypeScript
+- Styling: TailwindCSS
+- Forms: React Hook Form + Next.js API routes
+- Internationalization: next-translate (planned)
+- Deployment: Vercel
+- Version Control: Git + GitHub
 
-💆 Wellness & SPA – SPA packages, fitness center, and booking forms
+------------------------------------------------------
 
-🎁 Special Offers – Romantic, family, long-stay, and wellness deals
+##  Project Structure
 
-📍 Contacts Page – Map, contact info, and transfer details
-
-🌐 Multilingual Support – (English + Twi planned)
-
-📱 Responsive Design – Optimized for all screen sizes
-
-⚡ SEO Friendly – Meta tags, structured data, and optimized assets
-
-🧩 Tech Stack
-Category	Tools
-Framework	Next.js 14
-
-Language	TypeScript
-
-Styling	TailwindCSS
-
-Forms & Booking	React Hook Form, Next API routes
-Internationalization	next-translate (planned)
-Deployment	Vercel
-
-Version Control	Git + GitHub
-📁 Project Structure
 kwayisibea-hotel/
 │
-├── public/              # Static assets (images, icons)
+├── public/              # Static assets
 ├── src/
-│   ├── components/      # Reusable UI components
-│   ├── pages/           # Next.js pages (Home, Rooms, Restaurant, etc.)
-│   ├── styles/          # Global and component styles
+│   ├── components/      # Reusable UI parts
+│   ├── pages/           # Next.js routes
+│   ├── styles/          # Tailwind & globals
 │   ├── utils/           # Helper functions
-│   └── locales/         # Translation files (en, tw)
+│   └── locales/         # i18n files
 │
 ├── tailwind.config.js
 ├── tsconfig.json
 ├── package.json
 └── README.md
 
-🚀 Getting Started
-1. Clone the Repository
+------------------------------------------------------
+
+##  Getting Started
+
+# 1. Clone repository
 git clone https://github.com/your-username/kwayisibea-hotel.git
 cd kwayisibea-hotel
 
-2. Install Dependencies
+# 2. Install dependencies
 npm install
 # or
 yarn install
 
-3. Run the Development Server
+# 3. Run development server
 npm run dev
+# -> Open http://localhost:3000
 
-
-Then open http://localhost:3000
- in your browser.
-
-4. Build for Production
+# 4. Build for production
 npm run build
 npm start
 
-🖼️ Design Reference
+------------------------------------------------------
 
-The design is based on the Taiga Premium Hotel concept from Figma:
-Taiga Hotel Figma Reference
+##  Design Reference
+Based on the Taiga Premium Hotel design concept (Figma):
+https://www.figma.com/files/team/1383357981934505672/resources/community/file/1563079025666964532
 
-All UI layouts and copy have been translated and adapted for Kwayisibea Hotel to reflect a Ghanaian luxury brand identity.
+Adapted for Kwayisibea Hotel with a Ghanaian luxury brand focus.
 
-🌍 Translation Example
+------------------------------------------------------
+
+##  Translation Example
+
 {
   "en": {
     "home": {
@@ -102,25 +100,21 @@ All UI layouts and copy have been translated and adapted for Kwayisibea Hotel to
   }
 }
 
-📸 Screenshots (Coming Soon)
+------------------------------------------------------
 
-Home page preview
-
-Room details section
-
-SPA & Wellness booking screen
-
-📧 Contact
-
+##  Contact
 Developer: Ebenezer Donkor
 Role: Frontend Developer / Designer
-LinkedIn: linkedin.com/in/ebenezer-donkor
-
+LinkedIn: https://linkedin.com/in/ebenezer-donkor
 Email: your.email@example.com
 
-📝 License
+------------------------------------------------------
 
-This project is licensed under the MIT License — feel free to use and adapt for educational or personal purposes.
+##  License
+Licensed under the MIT License.
+You are free to use and modify for educational or personal projects.
 
-💡 “The best in luxury — where excellence meets hospitality.”
+------------------------------------------------------
+
+"The best in luxury — where excellence meets hospitality."
 — Kwayisibea Hotel
