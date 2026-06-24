@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-6xl font-bold text-white;
+  }
+
+  .section-title-1 {
+    @apply text-6xl font-bold text-black;
+  }
+
+  .section-description {
+    @apply text-sm text-white flex items-center px-4;
+  }
+}
+
+.team-swiper .swiper-button-next,
+.team-swiper .swiper-button-prev {
+  color: #16a34a;
+}
+
+.animate-loop-scroll {
+  animation: loop-scroll 20s linear infinite;
+}
+
+@keyframes loop-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-loop-scroll:hover {
+  animation-play-state: paused;
+}
+
+/* Initial states */
+
+.hidden-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition:
+    opacity 0.5s ease-out,
+    transform 0.5s ease-out;
+}
+
+.hidden-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition:
+    opacity 0.5s ease-out,
+    transform 0.5s ease-out;
+}
+
+.hidden-up {
+  opacity: 0;
+  transform: translateY(100px);
+  transition:
+    opacity 0.5s ease-out,
+    transform 0.5s ease-out;
+}
+
+/* Active state */
+
+.show {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
+
+/* Fade In */
+
+.hidden-fade {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.show-fade {
+  opacity: 1;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,152 @@
+import Image from "next/image";
+import Button from "@/components/common/Button";
+import ImgBg from "@/assets/palm-bg.png";
+
+export default function GetInTouch() {
+  return (
+    <section
+      style={{
+        backgroundImage: "url('palm.png')",
+        backgroundSize: "220px",
+        backgroundPosition: "top 0 left 82rem",
+        height: "auto",
+      }}
+      className="bg-green-200 px-6 md:px-12 lg:px-20 py-20 bg-no-repeat overflow-hidden"
+    >
+      <div className="relative flex flex-row justify-between bg-no-repeat">
+        <Image
+          src={ImgBg}
+          width={200}
+          height={200}
+          alt="Palm Background"
+          style={{ width: "auto", height: "auto" }}
+          className="absolute lg:left-8 top-32 z-10 hidden-left"
+          priority
+        />
+        <div
+          className="absolute bottom-4 -left-4 z-0 translate-y-6
+    w-72 h-16
+    bg-[radial-gradient(ellipse_at_center,#010_5%,#c3f4ea_40%,#c3f4ea_50%,transparent_80%)] opacity-50 hidden-right"
+        ></div>
+        <div className="space-y-4 z-10 hidden-left hidden-up">
+          <div className="text-green-900 text-xl font-semibold z-20">
+            Get In Touch
+          </div>
+          <h1 className="text-4xl max-w-xl font-bold">
+            <span className="text-transparent bg-clip-text bg-linear-to-b from-green-600 via-green-800 to-green-950">
+              Need a Gardener For Your Home? Please Contact Us
+            </span>
+          </h1>
+        </div>
+        <div className="relative z-20 hidden-right">
+          <div className="absolute -left-85 top-60 z-10">
+            <div className="bg-green-700 text-white flex flex-col justify-center p-6 gap-4 rounded-lg w-87.5 max-w-full h-auto">
+              <div className="flex flex-row gap-4 items-center">
+                <div className="bg-white/10 p-2 rounded-lg">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="size-6"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+
+                <div className="">
+                  <h3 className="font-semibold">Our Address</h3>
+                  <p className="opacity-95 text-sm">
+                    Dr. Busia Rd, Accra Central
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-row gap-4 items-center">
+                <div className="bg-white/10 p-2 rounded-lg">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="size-6"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>{" "}
+                <div>
+                  <h3 className="font-semibold">Our Phone</h3>
+                  <p className="opacity-95 text-sm">(+233) 53-819-8854</p>
+                </div>
+              </div>
+              <div className="flex flex-row gap-4 items-center">
+                <div className="bg-white/10 p-2 rounded-lg">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="size-6"
+                  >
+                    <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
+                    <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
+                  </svg>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold">Our Email</h3>
+                  <p className="opacity-95 text-sm">
+                    urbanlandscapes@gmail.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>{" "}
+          <form className="bg-white px-20 max-w-3xl rounded-lg py-10 space-y-2">
+            <div className="grid grid-cols-2 gap-4">
+              <input
+                placeholder="Your Name"
+                className="py-2 px-4 border border-gray-400 rounded-lg"
+              />
+              <input
+                placeholder="Your Phone"
+                className="py-2 px-4 border border-gray-400 rounded-lg"
+              />
+              <input
+                placeholder="Email Address"
+                className="py-2 px-4 border border-gray-400 rounded-lg"
+              />
+              <select className="border border-gray-400 rounded-lg">
+                <option className="text-gray-400" value="" disabled>
+                  Select a service
+                </option>
+                <option>Landscaping</option>
+                <option>Prunning Plants</option>
+                <option>Irrigation & Drainage</option>
+                <option>Garden Maintenance</option>
+              </select>
+            </div>
+            <textarea
+              rows={6}
+              placeholder="Your Message"
+              className="py-2 px-4 border border-gray-400 rounded-lg w-full mt-4"
+            ></textarea>
+            <label className="flex gap-4">
+              <input type="checkbox" />
+              Click & Submit to receive updates & offers
+            </label>
+            <div className="flex justify-end pt-4">
+              <Button size="large" shape="rounded-full">
+                SUBMIT
+              </Button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+}
